@@ -1,0 +1,198 @@
+/* Header */
+
+.headerWrapper {
+  display: block;
+  padding: 0;
+}
+
+.headerContainer {
+  padding: 35px 50px;
+}
+
+.menuBtn {
+  display: block;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: absolute;
+  background-color: black;
+  transform: translateY(0px) translateX(0px);
+  transform-style: preserve-3d;
+  transition: all 400ms ease;
+  height: 0;
+  width: 100%;
+  visibility: hidden;
+  overflow: hidden;
+}
+
+.dropdown.active {
+  height: 258px;
+  visibility: visible;
+}
+
+.nav a {
+  display: block;
+  padding: 28px 0;
+}
+
+.nav a:hover {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+/* Hero */
+
+.heroContainer {
+  flex-direction: column;
+}
+
+.heroHeadingWrapper {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.heroHeadingWrapper h1 {
+  font-size: 65px;
+}
+
+.heroTextWrapper {
+  min-height: unset;
+  width: 100%;
+}
+
+/* Section 2 */
+
+.s2 {
+  padding: 150px 20px;
+}
+
+/* Section 3 */
+
+.card {
+  padding: 60px;
+  margin: 76px 0;
+  width: 100%;
+  height: 271px;
+  min-width: 90%;
+  min-height: auto;
+}
+
+.cardText {
+  margin-left: 0;
+  width: 100%;
+}
+
+.cardText h3 {
+  font-size: 45px;
+}
+
+.cardWrapper img {
+  display: none;
+}
+
+.fourthCard {
+  align-items: flex-end;
+  height: 748px;
+}
+
+/* Section 4 */
+
+.s4Container {
+  min-height: 800px;
+}
+
+.s4Text {
+  width: 100%;
+  margin-left: 0;
+}
+
+.s4Text h3 {
+  font-size: 45px;
+}
+
+/* Section 5 */
+
+.s5 {
+  padding: 90px 20px;
+}
+
+.fourthBox h3 {
+  font-size: 45px;
+}
+
+/* Section 6 */
+
+.s6 {
+  padding: 30px 20px;
+}
+
+.s6Container {
+  flex-direction: column;
+}
+
+.s6TextWrapper {
+  margin-right: 0;
+  margin-bottom: 60px;
+  width: 100%;
+}
+
+.tableWrapper {
+  width: 100%;
+}
+
+/* section 7 */
+
+.s7 {
+  padding: 180px 20px;
+}
+
+.s7Grid {
+  grid-template-columns: 1fr;
+}
+
+/* section 9 */
+
+.s9 {
+  height: auto;
+}
+
+.userCardsWrapper {
+  flex-direction: column;
+}
+
+.userCard {
+  margin-right: 0;
+  margin-bottom: 50px;
+}
+
+.s9Container {
+  padding: 60px 0;
+}
+
+/* footer */
+
+.footerContainer {
+  background-color: #4844f2;
+}
+
+.footerTitleWrapper h1 {
+  font-size: 7vw;
+}
+
+.infoWrapper {
+  padding: 40px 80px 40px 40px;
+}
+
+.infoWrapper ul li {
+  padding: 8px 0;
+}
+
+.infoWrapper ul li a {
+  font-size: 1.125rem;
+}

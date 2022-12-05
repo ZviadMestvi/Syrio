@@ -1,0 +1,144 @@
+.nav,
+.mainLogo,
+.s2 {
+  animation: loadAnimationV1 550ms ease-in-out forwards;
+  opacity: 0;
+}
+
+.heroHeadingWrapper,
+.heroTextWrapper,
+.s5grid {
+  animation: loadAnimationV2 600ms ease-in-out 400ms forwards;
+  opacity: 0;
+}
+
+.cardWrapper {
+  animation: cardAnimation 800ms ease-in-out forwards;
+  opacity: 0;
+}
+
+.cardWrapper h3 {
+  animation: opacityAnimation 100ms ease-in-out 800ms forwards;
+  opacity: 0;
+}
+
+.cardWrapper p,
+.cardWrapper img {
+  animation: opacityAnimation 300ms ease-in-out 900ms forwards;
+  opacity: 0;
+}
+
+.s4Text p,
+.s5Title,
+.s8TitleWrapper p,
+.s9Par {
+  animation: opacityAnimation 600ms ease-in-out 100ms forwards;
+  opacity: 0;
+}
+
+.s6Container,
+.s7Title,
+.s8TitleWrapper h3,
+.s9Title {
+  animation: opacityAnimation 500ms ease-in-out forwards;
+  opacity: 0;
+}
+
+.s7GridItem {
+  animation: loadAnimationV2 350ms ease-out forwards;
+  opacity: 0;
+}
+
+.firstUser {
+  animation: userCardAnimation 600ms ease-in-out forwards;
+  opacity: 0;
+}
+
+.secondUser {
+  animation: userCardAnimation 600ms ease-in-out 300ms forwards;
+  opacity: 0;
+}
+
+.thirdUser {
+  animation: userCardAnimation 600ms ease-in-out 600ms forwards;
+  opacity: 0;
+}
+
+.footerContainer {
+  animation: footerColorAnm 1.1s ease-in-out forwards;
+}
+
+.footerInnerContainer {
+  animation: opacityAnimation 500ms ease-in-out 900ms forwards;
+  opacity: 0;
+}
+
+@keyframes loadAnimationV1 {
+  0% {
+    transform: translateY(15px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes loadAnimationV2 {
+  0% {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes cardAnimation {
+  0% {
+    width: 0;
+    opacity: 0;
+  }
+
+  100% {
+    width: 100%;
+    opacity: 1;
+  }
+}
+
+@keyframes userCardAnimation {
+  0% {
+    transform: translateY(-60px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes opacityAnimation {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes footerColorAnm {
+  0% {
+    transform: translateX(-100%);
+    background-color: #4844f2;
+  }
+
+  100% {
+    transform: translateX(0);
+    background-color: black;
+  }
+}

@@ -1,0 +1,161 @@
+/* Header */
+
+.mainLogo {
+  margin-top: 0;
+}
+
+.headerContainer {
+  padding: 25px 10px;
+}
+
+.menuBtn {
+  margin-right: 8px;
+}
+
+/* Hero */
+
+.heroWrapper {
+  height: auto;
+  padding: 110px 30px 50px;
+}
+
+.heroTextWrapper h2 {
+  font-size: 22px;
+  margin-top: 59px;
+  line-height: 1.4em;
+}
+
+.heroTextWrapper a {
+  font-size: 22px;
+}
+
+/* section 1 */
+
+.s1 {
+  display: none;
+}
+
+/* Section 2 */
+
+.s2 {
+  padding: 90px 25px;
+}
+
+.logosWrapper {
+  grid-template-columns: 1fr 1fr;
+}
+
+.logo {
+  padding: 20px;
+}
+
+.rightColumn {
+  border: 0 !important;
+  border-bottom: 1px solid #c2c2c2 !important;
+}
+
+.leftColumn {
+  border-bottom: 1px solid #c2c2c2;
+}
+
+/* section 3 */
+
+.card {
+  padding: 30px;
+  margin: 40px 0;
+  height: 409.5px;
+}
+
+.cardText p {
+  font-size: 1.5rem;
+  line-height: 1.3em;
+}
+
+/* section 4 */
+
+.s4 {
+  background-color: black;
+  padding: 0 20px;
+}
+
+.s4Text p {
+  font-size: 22px;
+  line-height: 1.4em;
+  margin-top: 59px;
+}
+
+/* section 5 */
+
+.s5Title,
+.firstBoxText h3 {
+  font-size: 35px;
+}
+
+.firstBoxText p {
+  font-size: 19px;
+  line-height: 1.4em;
+}
+
+/* section 6 */
+
+.s6 {
+  padding: 50px 20px;
+}
+
+.s6TextWrapper {
+  margin-bottom: 30px;
+}
+
+.s6Title {
+  font-size: 35px;
+}
+
+.tableWrapper table td {
+  padding: 0 15px;
+}
+
+.tableText {
+  padding: 0 !important;
+}
+
+.tableText p {
+  font-size: 12px;
+}
+
+/* section 8 */
+
+.s8 {
+  padding: 0;
+}
+
+.s8TitleWrapper h1 {
+  font-size: 35px;
+}
+
+.s8BtnsWrapper {
+  flex-direction: column;
+}
+
+.s8BtnsWrapper button {
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+/* section 9 */
+
+.s9Container {
+  padding: 60px 20px;
+}
+
+.s9Title {
+  font-size: 35px;
+}
+
+.formWrapper {
+  margin: 0 20px;
+  width: auto;
+}
+
+.emailField {
+  width: 100%;
+}
