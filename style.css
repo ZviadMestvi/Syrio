@@ -195,11 +195,11 @@ a {
   background-repeat: no-repeat;
 }
 
-.tabBtn.active {
+.tabBtn.activeBtn {
   background-color: white;
 }
 
-.tab.active {
+.tab.activeTab {
   display: flex;
 }
 
